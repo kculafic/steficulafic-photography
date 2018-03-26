@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('photo', { path: '/photo' });
+  this.route('video', { path: '/video' });
 });
 
 export default Router;

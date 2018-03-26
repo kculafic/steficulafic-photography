@@ -1,5 +1,37 @@
 {{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
 
-{{outlet}}
+
+<!-- <div>
+  <div class="container-fluid" id="main">
+
+  </div>
+</div> -->
+
+<div class="container">
+  <div class="row">
+    <div class="two columns" style="margin-top: 5%">
+      <h1>
+        {{#link-to "index"}}
+        <strong>Stefania Culafic</strong>
+        {{/link-to}}
+
+      </h1>
+
+      <p>
+        {{#link-to "photo"}}
+        Photo
+        {{/link-to}}
+      </p>
+
+      <p>Video</p>
+      <p>Prints</p>
+      <p>Contact</p>
+
+    </div>
+
+    <div  class="six columns offset-by-one" style="margin-top: 10%">
+      {{outlet}}
+    </div>
+
+  </div>
+</div>
