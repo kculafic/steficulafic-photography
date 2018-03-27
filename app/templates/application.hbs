@@ -1,52 +1,33 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-
-
-<!-- <div>
-  <div class="container-fluid" id="main">
-
-  </div>
-</div> -->
-
 <div class="container">
   <div class="row">
     <div class="one column" style="margin-top: 1%">
       <h1>
         {{#link-to "index"}}
-        <!-- <strong> -->
           Stefania Culafic
-        <!-- </strong> -->
         {{/link-to}}
-
       </h1>
-
       <a>
         {{#link-to "photo"}}
         Photography
         {{/link-to}}
       </a>
       <br />
-
       <a>
         {{#link-to "video"}}
         Video
         {{/link-to}}
       </a>
       <br />
-
       <a href="https://society6.com/stefaniaculafic" target="_blank">Prints</a>
       <br />
-
       <a>
         {{#link-to "contact"}}
         Contact
         {{/link-to}}
       </a>
-
     </div>
-
-    <div  class="seven columns offset-by-two" style="margin-top: 3%">
+    <div class="seven columns offset-by-two" style="margin-top: 3%">
       {{outlet}}
     </div>
-
   </div>
 </div>
