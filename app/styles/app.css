@@ -2,6 +2,7 @@ img {
     display: block;
     text-align: justify;
     width: 100%;
+    cursor: pointer;
 }
 
 a {
