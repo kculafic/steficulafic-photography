@@ -1,5 +1,12 @@
 # stefi-app
 
+This demo app was a quick ember build to create an example of a photography showcase webpage. 
+
+![demo](https://i.imgur.com/3SdHWZu.png)
+
+
+## Ember specs
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
